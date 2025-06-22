@@ -47,7 +47,7 @@ This project demonstrates how full-stack technologies can support environmental 
 
 ##  Academic Note
 
-> Developed as part of a Master's degree Web Development coursework project.
+ Developed as part of a Master's degree Web Development coursework project.
 
 
 
