@@ -1,0 +1,69 @@
+/* src/components/Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  background: whitesmoke !important;
+  border-radius: 1rem;
+  font-family: sans-serif;
+}
+
+.modal-content h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+}
+
+.modal-content button {
+  margin-top: 10px;
+  border-radius: 0.5rem;
+  padding: 10px 15px; 
+  font-size: 1rem;
+}
+
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%; 
+    padding: 15px; 
+  }
+
+  .modal-content h2 {
+    font-size: 1.25rem; 
+  }
+
+  .modal-content button {
+    padding: 10px; 
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 10px;
+    width: 80% !important; 
+  }
+
+  .modal-content h2 {
+    font-size: 1rem;
+  }
+
+  .modal-content button {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}

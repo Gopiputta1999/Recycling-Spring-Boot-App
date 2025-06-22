@@ -1,0 +1,57 @@
+/* Basic styling for the About Us page */
+.about-us {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 2.6rem;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .about-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-subtitle {
+    font-size: 2.3rem;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-list li {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  strong {
+    color: #27ae60;
+  }
+  
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .about-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  

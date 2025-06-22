@@ -1,0 +1,64 @@
+/* Event.css or your preferred stylesheet */
+
+/* Container for the entire Stories section */
+.stories-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #bce5cc; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
+  }
+  
+
+  .stories-container b {
+    font-size: 18px;
+    color: #125fad;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 16px;
+  }
+  
+  
+  .stories-container p {
+    font-size: 16px;
+    color: #34495e;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+
+  .stories-container p:nth-child(odd) {
+    background-color: #d6dadb; 
+    padding: 15px;
+    border-radius: 5px; 
+  }
+  
+  
+  .stories-container h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #15528f;
+    margin-bottom: 20px;
+  }
+  
+  
+  .stories-container p:last-child {
+    margin-bottom: 40px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .stories-container {
+      padding: 15px;
+      margin: 20px;
+    }
+    .stories-container h1 {
+      font-size: 24px;
+    }
+    .stories-container p {
+      font-size: 14px;
+    }
+  }
+  

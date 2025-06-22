@@ -1,0 +1,70 @@
+/* Login container */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/2.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.login {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #b1e9d0;
+    border-radius: 10px;
+    
+  }
+  
+  /* Label styles */
+  .login label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  
+  .login input[type="text"],
+  .login input[type="password"],
+  .login input[type="email"],
+  .login textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  
+  .login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .login button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Styling for the outer container */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+  }
+  

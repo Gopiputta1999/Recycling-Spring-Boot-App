@@ -1,0 +1,36 @@
+
+.social-media-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .social-media-container a {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  .social-media-container a:hover {
+    color: #070c0f;
+    transform: scale(1.2);
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  
+  .fab.fa-facebook {
+    color: #03050a;
+  }
+  
+  .fab.fa-twitter {
+    color: #050d12;
+  }
+  .fab.fa-linkedin {
+    color:#050d12
+  }
